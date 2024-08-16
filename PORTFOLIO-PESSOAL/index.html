@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <!--codigo google fonte-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!--fim google fontes-->
+
+    <!--bootstrap icone-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!--fim bootstrap icone-->
+
+    <script src="java/menu.js" defer></script>
+
+
+    <title>Curriculo Pessoal</title>
+</head>
+<body>
+    
+    <header>
+        <div class="interface">
+            <div class="logo"> 
+                <a href="#">
+                    <img src="img/ELI-LOGO.png"minha logo">
+                </a>
+            </div><!--logo-->
+
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#especialidades">Especialidades</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                </ul>
+            </nav>
+
+            <div class="btn-contato">
+                <a href="https://api.whatsapp.com/send?phone=5581999572633&text=Deixa%20sua%20mensagem,%20logo%20mais%20te%20respondo,%20obrigada!">
+                    <button>Contato</button>
+                </a>
+            </div><<!--btn-contato-->
+            <div class="btn-abrir-menu" id="btn-menu">
+                <i class="bi bi-list"></i>
+            </div>
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar">
+                    <i class="bi bi-x-lg"></i>
+                </div><!--menu-fechar-->
+                <nav>
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Especialidades</a></li>
+                        <li><a href="#">Sobre</a></li>
+                        <li><a href="#">Projetos</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </nav>
+            </div><!--menu-mobile-->
+            <div class="overlay-menu" id="overlay-menu">
+
+            </div>
+        </div><!--interface-->
+    </header>
+
+    <main>
+        <section class="topo-do-site">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-site">
+                        <h1>TRANFORMANDO IDEIAS EM REALIDADE<span>.</span></h1>
+                        <p>Criatividade e inovação andam lado a lado. Com uma combinação única de web impactante, funcionalidade intuitiva e otmização para resultados, estou pronta para criar a presença online dos seus projetos e sonhos.</p>
+                        
+                        <div class="btn-contato">
+                            <a href="#">
+                                <button>Entre em Contato</button>
+                            </a>
+                        </div>
+                    </div><!--txt-topo-site-->
+                        <div class="img-topo-site">
+                            <img src="img/Design sem nome.png" alt="minha foto">
+                        </div><!--img-topo-site-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--topo-site-->
+
+        <section class="especialidades" id="especialidades">
+            <div class="interface">
+                <h2 class="titulo">MINHAS <span>ESPECIALIDADES.</span></h2>
+                <div class="flex">
+                   
+                    <div class="especialidades-box">
+                        <i class="bi bi-code-square"></i>
+                        <h3>Web</h3>
+                        <p>Na programação web trabalho com a parte do BackEnd e FrontEnd, para facilitar ao máximo a necessidade dos clientes.</p>
+                    </div><!--especialidades-box-->
+
+                    <div class="especialidades-box">
+                        <i class="bi bi-browser-chrome"></i>
+                        <h3>BackEnd</h3>
+                        <p>Do lado do BackEnd consigo programar com Python, focando na lógica e no gerenciamento do lado do servidor.</p>
+                    </div><!--especialidades-box-->
+
+                    <div class="especialidades-box">
+                        <i class="bi bi-browser-edge"></i>
+                        <h3>FrontEnd</h3>
+                        <p>Faço a criação de aplicativos e sites para navegadores da web, utilizando tecnologias como HTML, CSS E JAVASCRIPT. </p>
+                    </div><!--especialidades-box-->
+                </div><!--flex-->
+            </div><!--interface-->
+
+        </section><!--especialidades-->
+
+        <section class="sobre" id="sobre">
+            <div class="interface">
+                <div class="flex">
+                    <div class="img-sobre">
+                        <img src="img/elisandra.jpeg" alt="minha foto principal" class="img-foto">                       
+                    </div><!--img-sobre-->
+
+                    <div class="txt-sobre">
+                        <h2>MUITO PRAZER, <span>SOU ELISANDRA SOARES.</span></h2>
+                        <p>Conclui a faculdade de Análise e Desenvolvimento de Sistemas, e a cada dia tenho a certeza que tecnologia é o que eu quero levar por toda minha vida. Quero ajudar a empresa no que for preciso e agregar meus conhecimentos dentro da mesma.</p>
+                        <p>Consigo me adaptar bem ao ambiente de trabalho, sou criativa, corajosa, extrovertida, esforçada e gosto de aprender coisas novas. Tenho vários cursos complementares: LÓGICA DE PROGRAMAÇÃO, HTML, CSS, JS, PYTHON, BOOTSTRAP, BANCO DE DADOS entre outros!</p>
+                        <div class="btn-social">
+                            <a href="https://www.instagram.com/elisandralima01/?hl=pt_BR"><button><i class="bi bi-instagram"></i></button></a>
+                            <a href="https://www.linkedin.com/in/elisandra01/"><button><i class="bi bi-linkedin"></i></button></a>
+                            <a href="https://github.com/elisandra-soares?tab=repositories"><button><i class="bi bi-github"></i></button></a>
+                        </div><!--btn-social-->
+                    </div><!--txt-sobre-->
+                </div>
+            </div><!--interface-->
+        </section><!--sobre-->
+
+        <section class="portfolio" id="projetos">
+            <div class="interface">
+                <h2 class="titulo">MEU <span>PORTFÓLIO.</span></h2>
+                <div class="flex">
+                    <div class="img-port" style="background-image: url(img/on.jpeg);">
+                       <a href="https://modo-clicavel.netlify.app/" target="_blank"><div class="overlay">Modo-clicável</div></a>
+                    </div>
+                    <div class="img-port" style="background-image: url(img/FINANÇAS.jpeg);">
+                        <a href="https://finas.netlify.app/" target="_blank"><div class="overlay">PROJETO FINANS</div></a>
+
+                    </div>
+                    <div class="img-port" style="background-image: url(img/universidade.jpeg);">
+                        <a href="https://universidade-fac.netlify.app/" target="_blank"><div class="overlay">PROJETO UNIVERSIDADE</div></a>
+
+                    </div>
+                </div>
+            </div><!--fim interface-->
+        </section><!--fim portfolio-->
+
+        <section class="formulario">
+            <div class="interface">
+                
+            </div><!--fim interface-->
+        </section><!--fim formulario-->
+    </main>
+
+    <main>
+        <footer>
+            <div class="interface">
+                <div class="line-footer">
+                    <div class="flex">
+                        <div class="logo-footer">
+                            <img src="img/SOARES.png" alt="">
+                        </div><!--logo-footer-->
+                        <div class="btn-social">
+                            <a href="https://api.whatsapp.com/send?phone=5581999572633&text=Deixe%20seu%20recardo,%20logo%20logo%20te%20responderei,%20OBRIGADA!" target="_blank"><button><i class="bi bi-whatsapp"></i></button></a>
+                            <a href="https://www.linkedin.com/in/elisandra01/" target="_blank" ><button><i class="bi bi-linkedin"></i></button></a>
+                            <a href="https://github.com/" target="_blank"><button><i class="bi bi-github"></i></button></a>
+                        </div><!--btn-social-->
+                </div><!---->
+                </div><!--line-footer-->
+
+                <div class="line-footer borda">
+                    <p><i class="bi bi-envelope-fill"></i>flavios.02es@gmail.com</p>
+                </div><!--div-line-footer-->
+            </div><!--interface--
+        </footer>
+    </main>
+
+</body>
+</html>
